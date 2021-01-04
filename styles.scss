@@ -433,13 +433,16 @@ p {
         flex-direction: row;
         flex-wrap: wrap;
         flex-basis: auto;
-        justify-content: space-between;
+        justify-content: space-around;
         margin: 0 100px;
+        
     }
 
     .iframe {
         max-width: 584px;
         max-height: 232px;
+        background-color: transparent;
+        border: 0;
     }
 
     /*SECCION PHONE*/
